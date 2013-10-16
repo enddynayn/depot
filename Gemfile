@@ -34,7 +34,7 @@ end
 
 gem 'rails-footnotes', :group => :development
 
-gem 'rack-mini-profiler'
+#gem 'rack-mini-profiler'
 group :development do
   gem "better_errors"
   gem "binding_of_caller"
