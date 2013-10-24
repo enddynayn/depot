@@ -38,7 +38,10 @@ gem 'rails-footnotes', :group => :development
 group :development do
   gem "better_errors"
   gem "binding_of_caller"
-
+  gem 'annotate'
+  gem 'flay'
+  gem 'hirb'
+  gem 'meta_request','0.2.1'
 end
 
 # Use ActiveModel has_secure_password
