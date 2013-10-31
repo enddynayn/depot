@@ -1,7 +1,9 @@
 Dear <%= @order.name %>
- thank you for your recent order.  Your order should arrive in approximately never. 
 
- You order the following items:
- <%= render @order.line_items -%>
+Thank you for your recent order from The Pragmatic Store.
 
- We'll send you a seperate e-mail to thank you for your money. 
+You ordered the following items:
+
+<%= render @order.line_items -%>
+
+We'll send you a separate e-mail when your order ships.
