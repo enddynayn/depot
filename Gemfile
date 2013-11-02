@@ -33,10 +33,11 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-gem 'rails-footnotes', :group => :development
+
 
 #gem 'rack-mini-profiler'
 group :development do
+  gem 'rails-footnotes', :group => :development
   gem "better_errors"
   gem "binding_of_caller"
   gem 'annotate'
